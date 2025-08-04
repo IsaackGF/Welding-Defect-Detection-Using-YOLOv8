@@ -1,0 +1,14 @@
+# dataset.yaml - Configuracion para entrenamiento en YOLOv8
+
+#Ruta a los datos
+
+train: /root/autodl-tmp/defectos_de_soldaduras/train/images #Ruta a imagenes de entrenamiento
+val: /root/autodl-tmp/defectos_de_soldaduras/valid/images    #Ruta a imagenes de validacion
+test: /root/autodl-tmp/defectos_de_soldaduras/test/images    #Es opcional para pruebas finales
+
+#Numero de clases (Defectos y No-defectos)
+nc: 3 #2 defectos y una clase buena
+
+#Nombre de las clases
+names: ['Bad Weld', 'Good Weld', 'Defect']
+

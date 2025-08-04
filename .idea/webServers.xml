@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f477eefb-e82d-42e9-aaf9-7eb35a618215" name="B区317">
+        <fileTransfer rootFolder="/root/autodl-tmp" accessType="SFTP" host="connect.nmb2.seetacloud.com" port="46076" sshConfigId="1729cbf9-0a1d-4787-93ec-faacdd0ae889" sshConfig="root@connect.nmb2.seetacloud.com:46076 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
