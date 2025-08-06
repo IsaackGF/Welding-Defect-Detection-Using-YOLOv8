@@ -52,8 +52,10 @@ Defect: mAP50=0.0258 (Very bad)
 <img width="1500" height="1125" alt="image" src="https://github.com/user-attachments/assets/40f7bf82-4fe0-4c23-bf31-a2012e5dce62" />
 
 <p>CONCLUSION</p>
+
 Laser welding is an advanced technology that offers numerous advantages in terms of precision, speed, and quality.However, it requires in-depth knowledge of process parameters and inspection techniques to ensure optimal results.
 The model’s performance is not adequate for real-world use. Specifically, in the "Defect" class, it fails to detect any cases correctly, with a prediction rate of only 50%. One possible solution could be to increase training epochs, for exemple 200. 
 
-<img width="1824" height="81" alt="image" src="https://github.com/user-attachments/assets/28f44ab6-fb7b-4757-a601-4fced3182e8d" />
+<img width="1500" height="1125" alt="image" src="https://github.com/user-attachments/assets/69dcbfaa-bbb4-4c21-a902-af402018b6a9" />
+
 
