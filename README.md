@@ -2,7 +2,7 @@
 
 <p>
 BACKGROUND
-  =============
+  =
 
 </p>
 
@@ -12,7 +12,7 @@ Laser welding is a material  joining process that uses a high-energy laser beam
 
 <p>
 EXPERIMENT
-  =============
+  =
 
 </p>
 
@@ -33,6 +33,24 @@ And to verify the model's performance, the next step is to run the test.py file,
 
 <img width="1500" height="541" alt="image" src="https://github.com/user-attachments/assets/78992fd6-50b7-4780-b29b-e396a9c4f4e3" />
 "Bad Weld" has higher recall (35.4%) but low precision (22.6%)."Good Weld" has higher precision (34.1%) but low recall (18.4%)."Defect" has perfect precision (1.0) but zero recall (0%), suggesting that the model almost never detects this class.
+
+<p>RESULTS 
+</p>
+This is the label distribution of the training/validation set. With the Class Histogram (Good Weld, Bad Weld, Defect). The existing imbalance (e.g., 'Defect' with few samples) explains its low mAP,  theb Bounding Box Size Distribution and the Bounding Box Location: Heatmap of object positions in the images.
+<img width="937" height="1004" alt="image" src="https://github.com/user-attachments/assets/1a51d6bf-599d-4592-9836-33b1c114ef9c" />
+
+Model Evaluation
+Low Overall Performance:
+mAP50-95: 0.051 (Very low, ideal >0.5)
+Recall: 17.9% (Detects few real defects)
+Precision: 52.2% (When it predicts, it's right about half the time)
+By Class:
+Bad Weld: mAP50=0.169 (Acceptable)
+Good Weld: mAP50=0.139 (Poor)
+Defect: mAP50=0.0258 (Very bad)
+
+<img width="1500" height="768" alt="image" src="https://github.com/user-attachments/assets/7fbb0ae6-eb65-488a-9768-9c66411c56f2" />
+
 
 
 
