@@ -1,20 +1,17 @@
 ## WELDING DETECTION USING YOLOv8
 
 <p>
-## BACKGROUND
+BACKGROUND
 </p>
 
-Laser welding is a material  joining process that uses a high-energy laser beam to melt and fuse parts together. It is widely used in industries such as automotive, aerospace, electronics, and manufacturing due to its precision, speed, and ability to weld difficult-to-join materials. The following photos represent Good and Bad Welds: 
-<img width="452" height="377" alt="image" src="https://github.com/user-attachments/assets/f51bd0f2-42ce-4881-9ce7-5f5f800cdffe" />
-<img width="452" height="341" alt="image" src="https://github.com/user-attachments/assets/a0c1d610-53e2-48f3-b838-ed26d6963884" />
+Laser welding is a material  joining process that uses a high-energy laser beam to melt and fuse parts together. It is widely used in industries such as automotive, aerospace, electronics, and manufacturing due to its precision, speed, and ability to weld difficult-to-join materials. 
+<img width="485" height="332" alt="image" src="https://github.com/user-attachments/assets/faf7ef19-32a3-42d0-ab30-ec6f87d5b03c" />
 
 <p>
-## EXPERIMENT
+EXPERIMENT
 </p>
 
 First, I collected the data by downloading the dataset, which contained 176 images and 209 object instances to detect, divided into two groups: images of good welds and bad welds. 
-
-
 Next step, I successfully trained the model with YOLOv8. These results show the summary of the model's training and validation. The training completed 100 epochs in just 8.46 minutes. The best model was evaluated on the validation set (best.pt):
 
 <img width="1502" height="522" alt="image" src="https://github.com/user-attachments/assets/1947cd9d-9568-4ca9-a329-c86f3aa48a4e" />
