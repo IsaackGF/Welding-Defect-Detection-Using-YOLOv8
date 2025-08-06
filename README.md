@@ -4,7 +4,9 @@
 BACKGROUND
 </p>
 
-Laser welding is a material  joining process that uses a high-energy laser beam to melt and fuse parts together. It is widely used in industries such as automotive, aerospace, electronics, and manufacturing due to its precision, speed, and ability to weld difficult-to-join materials.
+Laser welding is a material  joining process that uses a high-energy laser beam to melt and fuse parts together. It is widely used in industries such as automotive, aerospace, electronics, and manufacturing due to its precision, speed, and ability to weld difficult-to-join materials. The following photos represent Good and Bad Welds: 
+<img width="452" height="377" alt="image" src="https://github.com/user-attachments/assets/f51bd0f2-42ce-4881-9ce7-5f5f800cdffe" />
+<img width="452" height="341" alt="image" src="https://github.com/user-attachments/assets/a0c1d610-53e2-48f3-b838-ed26d6963884" />
 
 <p>
   EXPERIMENT
