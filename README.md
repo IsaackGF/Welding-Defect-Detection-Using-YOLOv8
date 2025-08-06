@@ -1,7 +1,7 @@
 ## WELDING DETECTION USING YOLOv8
 
 <p>
-BACKGROUND
+###BACKGROUND
 </p>
 
 Laser welding is a material  joining process that uses a high-energy laser beam to melt and fuse parts together. It is widely used in industries such as automotive, aerospace, electronics, and manufacturing due to its precision, speed, and ability to weld difficult-to-join materials. The following photos represent Good and Bad Welds: 
@@ -9,7 +9,7 @@ Laser welding is a material  joining process that uses a high-energy laser beam
 <img width="452" height="341" alt="image" src="https://github.com/user-attachments/assets/a0c1d610-53e2-48f3-b838-ed26d6963884" />
 
 <p>
-  EXPERIMENT
+###EXPERIMENT
 </p>
 
 First, I collected the data by downloading the dataset, which contained 176 images and 209 object instances to detect, divided into two groups: images of good welds and bad welds. 
